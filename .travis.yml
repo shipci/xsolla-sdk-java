@@ -4,7 +4,6 @@ script:
   - cd sdk ; mvn test
   - echo $test
 
-  
 jdk:
   - oraclejdk7
   - openjdk7
