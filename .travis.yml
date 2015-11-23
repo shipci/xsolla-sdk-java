@@ -15,7 +15,7 @@ env:
  global:
    - Foo=bar
    - test1=aa
-  matrix:
+ matrix:
    - secure: GOQIILb2NGGBdPhoZbTV/mjuAojwmLy98OgYZ0t/vppmthlK8xOS6j/xgxwOGBFjCToW1HHd+EKArPnqwVNRiVNizgUA6b3w79ZOY3nppJxQHadXiA3mmuo1gNvP1Vmdm09MaWtBegcTjz4hAtPJuks5GooxZynEhJHIOQFCg/Xoy521Pox9kmUdYNwOmYxkgxqy4oHC/Jr/6rXbPMNrUIeCNe1v/4N30O1WXWgTGdxzbAlLlRZxXXpSq3iO0TrRxZjuf2vp0A686jjxoEt1uOlTYExvLbq5ov3ykQ/3PoDG3lwdTvV00crEpP29dY+xShBgYXXL4tuDp1ecgqdUOg== 
    - DOCKER_COMPOSE_VERSION="1.5.0rc3"
   
