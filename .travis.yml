@@ -26,6 +26,7 @@ matrix:
       env: testproj=name
   exclude:
     - jdk: oraclejdk8
+      env: DOCKER_COMPOSE_VERSION="1.5.0rc3"
   
 before_script: echo $DOCKER_COMPOSE_VERSION
       
