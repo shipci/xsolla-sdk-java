@@ -23,7 +23,7 @@ matrix:
   include:
     - jdk: openjdk7
       env: test=name
-   exclude:
+  exclude:
     - jdk: oraclejdk8
   
 before_script: echo $DOCKER_COMPOSE_VERSION
