@@ -17,6 +17,7 @@ env:
    - Foo=bar
    - test1=aa
  matrix:
+   - secure: m7dPwmLIQK8gcik8myto3FRUaF6SLoBJ+mi3xaYAi9bRfME9lVvOLSKjIez+mA7erGtqWAsqaGjxTCQqgzbLpT4cgUTlYt2UjSgxZTxxKWyln74WIqezspxLVQ8egDb35MEJMK6PpX/WoCONzzaDNsqkn47lrDRH5szzsERB+bKJdyKrnyE9/8mgPfRoaDu+IRdkvzEIX9+9pbPNOXRjSb3ZH4OXUtDmF6ieTiouvi8ONSbHalwAyh/lD4Jht68tn11zx+8My7igAH251VEF+B2mpUGINy4lef7MMioppTv6kN3gCajIhcFD0d87VG8MnyXBbXGAQpkq6io2v/OTBw== 
    - secure: L20To/+xg6JAeUeyhS4iPXZj8yqciH08UEJbzuraAWUWgEAZ9Sd4sf9VBfzv3BB855NthIWXnAVJ2iPM355n4B5cbIwxPFLI9ajMkbq7MkuTIgJ9hRmT45unbRRja5jl2aF4e3qremUxeLT2uYqqrZQV00Fv+UJko3kCn6eDl5jWFynhUXnTef3IOqfmIChiJVTRuDj1PfxGsh7j4INzHkl3dEcbh5X5WLJkjiVBns+RdjQu13nMKGLZ4O5eAoczDVHyMkJ52274pqexbYYuOnSn7+zY7pSYq41w3GTJsPYVcGJ7UFx9tZQA0UGJDYI+5c6G/eyjPpm9Oka0kMxgzA== 
    - DOCKER_COMPOSE_VERSION="1.5.0rc3"
   
