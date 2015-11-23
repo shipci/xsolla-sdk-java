@@ -4,7 +4,8 @@ after_script: echo $Foo
 
 script: 
   - cd sdk ; mvn test
-  - echo $test
+  - echo $test1
+  - echo $testproj
   
 jdk:
   - oraclejdk7
@@ -22,7 +23,7 @@ env:
 matrix:
   include:
     - jdk: openjdk7
-      env: test=name
+      env: testproj=name
   exclude:
     - jdk: oraclejdk8
   
