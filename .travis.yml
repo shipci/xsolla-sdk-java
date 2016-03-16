@@ -4,10 +4,11 @@ script: cd sdk ; mvn test
 
 jdk:
   - oraclejdk7
-  - openjdk7
-  - oraclejdk8
+  #- openjdk7
+  #- oraclejdk8
 env:
-  - secure: qLaXHOQkxY9AWzejimte7bpMn4cMWPeuD0NsH32nltZHBkZKS/tVZCN2/G3xm8aWooSZ91anosa8/8Zk3YIV5lb4PqD5qgPgx5FmZBB8HHcy88I0ZcFhJmVsqZO4XZUwjtOxlNFppjFkQAPALG0xUZscnh0ao1y0j+Ao3nVx2GRkrTY92HqtFlAWZbCPDhHt+F62fOjU3Mk3yCKTLZZOqbK1E8FQXgiMOYIlTwBUGb5DGzkrF0WMdMMGf1Os8dYNFKFnVFGILJpr+0jWbaLI/ah0P31p7ugb3xn3QRZBhtXzuOUYPlsvmMLsZqDpquwQJX6ZrWXGOMuGDZuhygXgxA==
+  - $foo=aaa
+  #- secure: qLaXHOQkxY9AWzejimte7bpMn4cMWPeuD0NsH32nltZHBkZKS/tVZCN2/G3xm8aWooSZ91anosa8/8Zk3YIV5lb4PqD5qgPgx5FmZBB8HHcy88I0ZcFhJmVsqZO4XZUwjtOxlNFppjFkQAPALG0xUZscnh0ao1y0j+Ao3nVx2GRkrTY92HqtFlAWZbCPDhHt+F62fOjU3Mk3yCKTLZZOqbK1E8FQXgiMOYIlTwBUGb5DGzkrF0WMdMMGf1Os8dYNFKFnVFGILJpr+0jWbaLI/ah0P31p7ugb3xn3QRZBhtXzuOUYPlsvmMLsZqDpquwQJX6ZrWXGOMuGDZuhygXgxA==
   
 script:
  - echo $Foo
